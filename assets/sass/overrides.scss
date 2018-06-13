@@ -1,0 +1,70 @@
+/* =Color Palette
+====================*/
+$primary: #263238;
+$primary-light: #4F5B62;
+$primary-dark: #000A12;
+
+$secondary: #EC407A;
+$secondary-light: #FF77A9;
+$secondary-dark: #B4004E;
+
+$white: #FFFFFF;
+$black: #000000;
+
+
+/* =Header
+====================*/
+.primary-dark {
+    background-color: $primary-dark;
+}
+.secondary-light {
+    background-color: $secondary-light;
+}
+.clouds {
+	background-color: $white;
+	background-image: url("../../images/space-clouds.png");
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+.full-width {
+	width: 100%;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+
+/* =Navbar 
+===========================*/
+nav .brand-logo {
+	padding: 0px 20px;
+}
+
+.sidenav-overlay {
+	z-index: 996;
+}
+
+nav ul a:hover {
+	background-color: $secondary-light;
+}
+
+nav ul a {
+	transition: background-color 1s ease 0s;
+}
+
+
+/* Footer
+============================*/
+
+footer {
+	font-size: .75rem;
+	padding-bottom: 20px;
+}
