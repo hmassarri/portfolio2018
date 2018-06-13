@@ -1,0 +1,123 @@
+/* Color Palette 
+===========================*/
+
+
+/*
+primary: 			#263238
+primary-light:		#4F5B62
+primary-dark:		#000A12	
+secondary:			#EC407A		
+secondary-light:	#FF77A9	
+secondary-dark:		#B4004E
+white:				#FFFFFF
+black:				#000000
+*/
+
+.primary {
+	color: #263238;
+	background-color: #263238;
+}
+
+.primary-light {
+	color: #4F5B62;
+	background-color: #4F5B62;
+}
+
+.primary-dark {
+	color: #000A12;
+	background-color: #000A12;
+}
+
+.secondary {
+	color: #EC407A;
+	background-color: #EC407A;
+}
+
+.secondary-light {
+	color: #FF77A9;
+	background-color: #FF77A9;
+}
+
+.secondary-dark {
+	color: #B4004E;
+	background-color: #B4004E;
+}
+
+.clouds {
+	background-color: #000000;
+	background-image: url("../../images/space-clouds.png");
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+
+
+
+/* Font sizes
+10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem
+*/
+
+
+/* Site CSS
+===========================*/
+
+.full-width {
+	width: 100%;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+
+
+
+
+
+/* Navbar 
+===========================*/
+
+nav .brand-logo {
+	padding: 0px 20px;
+}
+
+.sidenav-overlay {
+	z-index: 996;
+}
+
+nav ul a:hover {
+	background-color: #FF77A9;
+	color: #000000;
+}
+
+nav ul a {
+	transition: background-color 1s ease 0s;
+}
+
+
+
+
+
+
+
+/* Footer
+============================*/
+
+footer {
+	font-size: .75rem;
+	padding-bottom: 20px;
+}
