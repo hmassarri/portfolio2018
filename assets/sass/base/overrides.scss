@@ -1,0 +1,133 @@
+/* =Color Palette
+====================*/
+
+$primary: #37474F;
+$primary-light: #62727B;
+$primary-dark: #102027;
+
+$secondary: #EC407A;
+$secondary-light: #FF77A9;
+$secondary-dark: #B4004E;
+
+$white: #FFFFFF;
+$black: #000000;
+
+
+
+
+/* =HTML
+====================*/
+
+header,
+main,
+footer {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+	header,
+	main,
+	footer {
+		padding-left: 0;
+	}
+}
+
+
+
+
+/* =Header
+====================*/
+
+.primary {
+	background-color: $primary;
+	transition: background-color 2s ease 0s;
+}
+
+.primary-light {
+	background-color: $primary-light;
+	transition: background-color 2s ease 0s;
+}
+
+.primary-dark {
+	background-color: $primary-dark;
+	transition: background-color 2s ease 0s;
+}
+
+.secondary {
+	background-color: $secondary;
+}
+
+.secondary-light {
+	background-color: $secondary-light;
+}
+
+.secondary-dark {
+	background-color: $secondary-dark;
+}
+
+.clouds {
+	background-color: $white;
+	background-image: url("../../images/space-clouds.png");
+	background-repeat: repeat;
+	background-size: auto;
+	transition: background-color 2s ease 0s;
+}
+
+.white {
+	background-color: $white;
+	transition: background-color 2s ease 0s;
+}
+
+.black {
+	background-color: $black;
+	transition: background-color 2s ease 0s;
+}
+
+.full-width {
+	width: 100%;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+
+
+
+
+/* =Navbar 
+===========================*/
+
+nav .brand-logo {
+	padding: 0px 20px;
+}
+
+.sidenav-overlay {
+	z-index: 996;
+}
+
+.sidenav li > a:hover {
+	color: $white !important;
+	background-color: $primary-dark;
+	transition: background-color 1s ease 0s;
+}
+
+.sidenav .user-view {
+	margin-bottom: 0px;
+}
+
+
+
+/* Footer
+============================*/
+
+footer {
+	font-size: .75rem;
+	padding-bottom: 20px;
+}

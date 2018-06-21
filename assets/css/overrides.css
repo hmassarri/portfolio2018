@@ -1,48 +1,106 @@
 /* =Color Palette
 ====================*/
+/* =HTML
+====================*/
+header,
+main,
+footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+main,
+footer {
+    padding-left: 0;
+  }
+}
 /* =Header
 ====================*/
+.primary {
+  background-color: #37474F;
+  transition: background-color 2s ease 0s;
+}
+
+.primary-light {
+  background-color: #62727B;
+  transition: background-color 2s ease 0s;
+}
+
 .primary-dark {
-  background-color: #000A12; }
+  background-color: #102027;
+  transition: background-color 2s ease 0s;
+}
+
+.secondary {
+  background-color: #EC407A;
+}
 
 .secondary-light {
-  background-color: #FF77A9; }
+  background-color: #FF77A9;
+}
+
+.secondary-dark {
+  background-color: #B4004E;
+}
 
 .clouds {
   background-color: #FFFFFF;
   background-image: url("../../images/space-clouds.png");
   background-repeat: repeat;
-  background-size: auto; }
+  background-size: auto;
+  transition: background-color 2s ease 0s;
+}
+
+.white {
+  background-color: #FFFFFF;
+  transition: background-color 2s ease 0s;
+}
+
+.black {
+  background-color: #000000;
+  transition: background-color 2s ease 0s;
+}
 
 .full-width {
-  width: 100%; }
+  width: 100%;
+}
 
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 main {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+}
 
 /* =Navbar 
 ===========================*/
 nav .brand-logo {
-  padding: 0px 20px; }
+  padding: 0px 20px;
+}
 
 .sidenav-overlay {
-  z-index: 996; }
+  z-index: 996;
+}
 
-nav ul a:hover {
-  background-color: #FF77A9; }
+.sidenav li > a:hover {
+  color: #FFFFFF !important;
+  background-color: #102027;
+  transition: background-color 1s ease 0s;
+}
 
-nav ul a {
-  transition: background-color 1s ease 0s; }
+.sidenav .user-view {
+  margin-bottom: 0px;
+}
 
 /* Footer
 ============================*/
 footer {
-  font-size: .75rem;
-  padding-bottom: 20px; }
+  font-size: 0.75rem;
+  padding-bottom: 20px;
+}
 
-/*# sourceMappingURL=overrides.css.map */
+/*# sourceMappingURL=../../css/overrides.css.map */
