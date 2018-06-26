@@ -1,18 +1,5 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Portfolio 2018</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="node_modules/materialize-css/dist/css/materialize.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="assets/css/overrides.css" rel="stylesheet" type="text/css" />
-</head>
-
+<?php require_once 'includes/header.php'; ?>
+<?php require_once ''; ?>
 
 <body>
     <!--[if lte IE 9]>
@@ -75,11 +62,7 @@
 
 
 
-    <!-- Javascript goes here -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <!--<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <script src="assets/js/site.js"></script>
+<?php require_once 'includes/js.php'; ?>
 </body>
 
 </html>
