@@ -103,25 +103,37 @@ main {
 
 /* =Navbar 
 ===========================*/
-
+.navbar-wrapper container {
+    border-bottom: 1px solid #FAFAFA;
+}
+.nav-wrapper h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-size: 4.2rem;
+    font-weight: 300;
+    color: $secondary-light !important;
+}
 nav .brand-logo {
 	padding: 0px 20px;
 }
-
+nav .sidenav-trigger {
+    margin: 0;
+}
 .sidenav-overlay {
 	z-index: 996;
 }
-
 .sidenav li > a:hover {
 	color: $white !important;
 	background-color: $primary-dark;
 	transition: background-color 1s ease 0s;
 }
-
 .sidenav .user-view {
 	margin-bottom: 0px;
+    border-bottom: 1px solid #F5F5F5;
 }
-
+#slide-out {
+    border-right: 1px solid #F5F5F5;
+}
 
 
 /* Footer
@@ -130,4 +142,13 @@ nav .brand-logo {
 footer {
 	font-size: .75rem;
 	padding-bottom: 20px;
+}
+
+/* Media Query
+============================*/
+@media only screen and (max-width: 992px) {
+    .nav-wrapper h1 {
+        font-size: 3.5rem;
+        text-align: center !important;
+    }
 }
