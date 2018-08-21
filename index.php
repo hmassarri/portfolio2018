@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php include 'includes/header.php'; ?>
 <body>
     <!--[if lte IE 9]>
@@ -19,13 +20,35 @@
     </header>
     <main>
         <div style="height: 10vh;"></div>
+=======
+<!doctype html>
+<html class="no-js" lang="">
+<?php include 'includes/header.php'; ?>
+    <body>
+    <?php include 'includes/top_side_nav.php'; ?>
+
+    <main>
+        
+    <!--
+        <div class="primary-dark" style="height: 40vh;"></div>
+>>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
         <div id="slogan" class="row">
             <div class="col s12 center-align">
                 <img class="responsive-img" src="images/slogan.png" alt="" />
             </div>
         </div>
+    -->
     </main>
+<<<<<<< HEAD
 <?php include 'includes/footer.php'; ?>
 <?php include 'includes/js.php'; ?>
 </body>
 </html>
+=======
+
+
+    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/js.php'; ?>
+    </body>
+</html>
+>>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
