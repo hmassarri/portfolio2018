@@ -103,12 +103,19 @@ main {
 
 /* =Navbar 
 ===========================*/
-.navbar-wrapper container {
-    border-bottom: 1px solid #FAFAFA;
+nav.top-nav {
+    height: 110px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+    background-color: transparent;
+}
+nav .container {
+    width: 100% !important;
 }
 .nav-wrapper h1 {
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
+    margin: 0px 0px 0px 100px;
+    padding: 20px 0;
     font-size: 4.2rem;
     font-weight: 300;
     color: $secondary-light !important;
@@ -147,8 +154,30 @@ footer {
 /* Media Query
 ============================*/
 @media only screen and (max-width: 992px) {
+    header,
+	main,
+	footer {
+		padding-left: 0;
+	}
+    
+    nav.top-nav {
+        height: 64px;
+        line-height: 64px;
+    }
+    
     .nav-wrapper h1 {
         font-size: 3.5rem;
         text-align: center !important;
+        margin: 0px 30px 0px 0px;
+        padding: 5px 0px;
     }
+    
+    nav .sidenav-trigger {
+        margin: 0 0 0 30px;
+    }
+    
+    nav .sidenav-trigger i {
+    height: 64px;
+    line-height: 64px;
+}
 }

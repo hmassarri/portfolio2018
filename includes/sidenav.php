@@ -11,7 +11,7 @@
                         <span class="white-text name">HUGO M.</span>
                     </div>
                 </li>
-                <li><a href="uix.html" class="link black-text waves-effect waves-light">UIX</a></li>
+                <li><a href="uix.php" class="link black-text waves-effect waves-light">UIX</a></li>
                 <li><a href="#" class="link black-text waves-effect waves-light">Process</a></li>
                 <li><a href="#" class="link black-text waves-effect waves-light">Blog</a></li>
                 <li><a href="#" class="link black-text waves-effect waves-light">Discography</a></li>
