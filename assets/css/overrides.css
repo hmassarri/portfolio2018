@@ -1,15 +1,7 @@
 /* =Color Palette
 ====================*/
-/* $primary-light: #62727B; */
 .process-content {
   font-size: 1.142857143rem !important; }
-
-/* =HTML
-====================*/
-header,
-main,
-footer {
-  padding-left: 300px; }
 
 /* != Font Size $rembase = 14px
 --------------------------------------------------------------
@@ -34,13 +26,13 @@ footer {
 * 64px		4.57142857rem
 * 72px		5.142857143rem
 */
-@media only screen and (max-width: 992px) {
-  header,
-  main,
-  footer {
-    padding-left: 0; } }
-<<<<<<< HEAD
-=======
+/* =HTML
+====================*/
+header,
+main,
+footer {
+  padding-left: 300px; }
+
 /*=Margins and Padding
 ====================*/
 .mt-0 {
@@ -283,7 +275,6 @@ footer {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important; }
 
->>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
 /* =Header
 ====================*/
 .primary {
@@ -291,11 +282,7 @@ footer {
   transition: background-color 2s ease 0s; }
 
 .primary-light {
-<<<<<<< HEAD
-  background-color: #62727B;
-=======
   background-color: #1e88e5;
->>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
   transition: background-color 2s ease 0s; }
 
 .primary-dark {
@@ -337,7 +324,7 @@ body {
 main {
   flex: 1 0 auto; }
 
-/* =Navbar 
+/* =Navbar & Sidenav
 ===========================*/
 .navbar-wrapper container {
   border-bottom: 1px solid #FAFAFA; }
@@ -349,22 +336,22 @@ main {
   font-weight: 300;
   color: #FF77A9 !important; }
 
+nav .sidenav-trigger {
+  height: 64px;
+  line-height: 64px; }
+
 nav .brand-logo {
   padding: 0px 20px; }
-<<<<<<< HEAD
 
 nav .sidenav-trigger {
   margin: 0; }
-=======
->>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
 
 .sidenav-overlay {
   z-index: 996; }
 
 .sidenav li > a:hover {
   color: #FFFFFF !important;
-<<<<<<< HEAD
-  background-color: #102027;
+  background-color: #1e88e5;
   transition: background-color 1s ease 0s; }
 
 .sidenav .user-view {
@@ -373,29 +360,21 @@ nav .sidenav-trigger {
 
 #slide-out {
   border-right: 1px solid #F5F5F5; }
-=======
-  background-color: #1e88e5;
-  transition: background-color 1s ease 0s; }
-
-.sidenav .user-view {
-  margin-bottom: 0px; }
->>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
 
 /* Footer
 ============================*/
 footer {
-<<<<<<< HEAD
-  font-size: .75rem;
-  padding-bottom: 20px; }
+  font-size: 0.71428571rem; }
 
-/* Media Query
+/* Media Queries
 ============================*/
 @media only screen and (max-width: 992px) {
   .nav-wrapper h1 {
     font-size: 3.5rem;
-    text-align: center !important; } }
-=======
-  font-size: 0.71428571rem; }
->>>>>>> 9cf20aac68739110f6a558b6a74f53dcdd0463a9
+    text-align: center !important; }
+
+  nav .sidenav-trigger i {
+    height: 64px;
+    line-height: 64px; } }
 
 /*# sourceMappingURL=overrides.css.map */
