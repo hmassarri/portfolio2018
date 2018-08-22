@@ -1,4 +1,7 @@
-<?php include 'includes/header.php'; ?>
+<!doctype html>
+<html class="no-js" lang="">
+<?php include 'includes/head.php'; ?>
+
 <body>
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -18,12 +21,13 @@
         </div>
     </header>
     
+    
     <!-- // Add site content here -->
     <main>
 
-       
-   
     </main>
+    
+    
 <?php include 'includes/footer.php'; ?>
 <?php include 'includes/js.php'; ?>
 </body>

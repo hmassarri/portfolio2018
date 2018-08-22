@@ -6,7 +6,7 @@
 
                         </div>
                         <a href="#user">
-							<a href="index.html" class="brand-logo responsive-img"><img src="assets/images/logo.png" alt=""></a>
+							<a href="index.php" class="brand-logo responsive-img"><img src="assets/images/logo.png" alt=""></a>
                         </a>
                         <span class="white-text name">HUGO M.</span>
                     </div>
