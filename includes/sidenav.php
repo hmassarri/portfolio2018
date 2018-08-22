@@ -1,4 +1,4 @@
-<!-- //SideNav -->
+			<!-- //SideNav -->
             <ul id="slide-out" class="sidenav sidenav-fixed white z-depth-0">
                 <li>
                     <div class="user-view center-align">

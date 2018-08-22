@@ -1,4 +1,4 @@
-    <footer class="page-footer white">
+	<footer class="page-footer white">
         <div class="footer-copyright white">
             <div class="container">
                 <div class="row">
