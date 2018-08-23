@@ -11,7 +11,7 @@
    <header>
         <div class="navbar-fixed">
 
-            <nav class="top-nav z-depth-0 white">
+            <nav class="top-nav-big z-depth-0 white">
                 <div class="nav-wrapper container">
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
                     <h1 class="black-text">Process</h1>
