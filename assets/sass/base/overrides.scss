@@ -350,38 +350,32 @@ main {
 
 /* =Navbar & Sidenav
 ===========================*/
-<<<<<<< HEAD
 nav.top-nav {
-    height: 110px;
+    height: 175px;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid rgba(0,0,0,0.14);
-    background-color: transparent;
+    /* background-color: transparent; */
+	background-color: red;
 }
 nav .container {
     width: 100% !important;
-}
-.nav-wrapper h1 {
-    margin: 0px 0px 0px 100px;
-    padding: 20px 0;
-    font-size: 4.2rem;
-    font-weight: 300;
-    color: $secondary-light !important;
-=======
-.navbar-wrapper container {
-	border-bottom: 1px solid #FAFAFA;
+	margin: 0 100px;
 }
 .nav-wrapper h1 {
 	margin: 0px 0px 0px 0px;
-	padding: 0px;
+	padding: 20px 0px;
 	font-size: 4.2rem;
 	font-weight: 300;
 	color: $secondary-light !important;
 }
+.nav-wrapper h5 {
+	margin: 0 0 20px 0;
+	color: $primary-light !important;
+}
 nav .sidenav-trigger {
 	height: 64px;
 	line-height: 64px;
->>>>>>> ff515517af818cb26fc446fe166e8b456050e360
 }
 nav .brand-logo {
 	padding: 0px 20px;
@@ -406,6 +400,24 @@ nav .sidenav-trigger {
 }
 
 
+/* Process Content
+============================*/
+#processContainer {
+	margin: 150px 0px 0px 88px;
+	padding: 0;
+}
+#processContainer h1, 
+#processContainer h2, 
+#processContainer h3, 
+#processContainer h4, 
+#processContainer h5, 
+#processContainer h6 {
+	color: rgba(0, 0, 0, .55);
+}
+#processContainer p {
+	font-size: 1.1rem;
+}
+
 /* Footer
 ============================*/
 footer {
@@ -416,41 +428,40 @@ footer {
 /* Media Queries
 ============================*/
 @media only screen and (max-width: 992px) {
-<<<<<<< HEAD
     header,
 	main,
 	footer {
 		padding-left: 0;
 	}
-    
     nav.top-nav {
         height: 64px;
         line-height: 64px;
     }
-    
+	nav .container {
+    	width: 100% !important;
+		margin: 0;
+	}
     .nav-wrapper h1 {
         font-size: 3.5rem;
         text-align: center !important;
         margin: 0px 30px 0px 0px;
         padding: 5px 0px;
     }
-    
+	.nav-wrapper h5 {
+		visibility: hidden;
+	}
     nav .sidenav-trigger {
         margin: 0 0 0 30px;
-    }
-    
+    }   
     nav .sidenav-trigger i {
     height: 64px;
     line-height: 64px;
-}
-=======
-	.nav-wrapper h1 {
-		font-size: 3.5rem;
-		text-align: center !important;
 	}
-	nav .sidenav-trigger i {
-		height: 64px;
-		line-height: 64px;
+	
+	#processContainer {
+		margin: 30px auto;
+		padding: 0;
+		text-align: center !important;			
 	}
->>>>>>> ff515517af818cb26fc446fe166e8b456050e360
+	
 }
