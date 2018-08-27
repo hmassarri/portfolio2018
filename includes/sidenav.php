@@ -7,8 +7,9 @@
                         </div>
                         <a href="#user">
 							<a href="index.php" class="brand-logo responsive-img"><img src="assets/images/logo.png" alt=""></a>
+                           <span class="black-text name">HUGO MASSARRI</span>
                         </a>
-                        <span class="white-text name">HUGO M.</span>
+                        
                     </div>
                 </li>
                 <li><a href="uix.php" class="link black-text waves-effect waves-light">UIX</a></li>
