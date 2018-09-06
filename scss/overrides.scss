@@ -1,10 +1,15 @@
-@import "mobile.scss";
-@import "tablet.scss";
+@import "formatting";
+@import "mobile";
+@import "tablet";
 
 
+
+/* =Body
+====================*/
 body {
 	background-color: #eceff1;
 }
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -17,10 +22,19 @@ body {
 	top: 64px;
 }
 
+
+/* =Nav
+====================*/
+nav .brand-logo {
+    font-size: 1.4rem;
+    color: $primary;
+}
+
+/* =Tab Menu
+===================*/
 .tab-menu .tabs .indicator {
 	background-color: black !important;
 }
-
 .tab-menu .tabs .tab a:focus, .tabs .tab a:focus.active {
     background-color: rgba(0, 0, 0 ,0.03);
 }
