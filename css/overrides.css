@@ -307,4 +307,9 @@ nav .brand-logo {
 .tab-menu .tabs .tab a:focus, .tabs .tab a:focus.active {
   background-color: rgba(0, 0, 0, 0.03); }
 
+/* =Footer
+====================*/
+.page-footer {
+  padding: 0; }
+
 /*# sourceMappingURL=overrides.css.map */
